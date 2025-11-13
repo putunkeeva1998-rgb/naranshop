@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NARAN Shop</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    button { margin: 10px; padding: 10px 20px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>NARAN SHOP</h1>
+  <p>Мини-магазин с оплатой ⭐️</p>
+
+  <button onclick="openBot()">Открыть в Telegram</button>
+
+  <script>
+    function openBot() {
+      window.location.href = "https://t.me/YOUR_BOT_USERNAME?start=shop";
+    }
+  </script>
+</body>
+</html>
